@@ -1,0 +1,580 @@
+
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif; 
+	background-color: #eeeeee;
+	
+}
+
+
+#wrap {
+	max-width:960px;
+	width:100%;
+	height: 670px;
+	background-color: #eeeeee;
+	margin: 10px auto 0px auto;
+	background-image: url(../img/skull.jpg);
+	background-position: -100px -5px;
+	
+	border: 5px solid #eeeeee;
+}
+
+
+
+#wrapper { /* for about page */
+	max-width:960px;
+	width:100%;
+	height: 670px;
+	background-color: #eeeeee;
+	margin: 10px auto 0px auto;
+	background-image: url(../img/me.jpg);
+	background-position: -100px -5px;
+	border: 5px solid #eeeeee;
+}
+
+#container { /* for contact page */
+	max-width:960px;
+	width:100%;
+	background-color: #eeeeee;
+	margin: 10px auto 0px auto;
+	background-image: url(../img/dragon.jpg);
+	background-position: -100px -5px;
+	height: 670px;
+	border: 5px solid #eeeeee;
+}
+
+#wrapgal { /* for gallery */
+	max-width:960px;
+	width:100%;
+	height: 670px;
+	background-color: #dddddd;
+	margin: 10px auto 0px auto;
+	
+	border: 5px solid #eeeeee;
+
+
+}
+
+
+#wrapres { /* for resume */
+	max-width:960px;
+	width:100%;
+	height: 670px;
+	background-color: #eeeeee;
+	margin: 10px auto 0px auto;
+	background-image: url(../img/mountain.jpg);
+	background-position: 100px -5px;
+	border: 5px solid #eeeeee;
+
+
+}
+
+
+header {
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-color: #b1d29d;
+	
+}
+
+#logo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content {
+	color: #b1d29d;
+	font-size: 25px;
+	height:343px;
+	float: left;
+}
+
+#contentabout {
+	color: #b1d29d;
+	font-size: 20px;
+	width: 420px;
+	background-color: #939393;
+	float: left;
+	margin-left: 400px;
+	margin-top: -150px;
+}
+
+#highlight {
+	background-color: #444444;
+	width: 320px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+
+#contentcontact {
+	color: #b1d29d;
+	font-size: 20px;
+	width: 350px;
+	height: 170px;
+	background-color: #939393;
+	float: left;
+	margin-left: 160px;
+	margin-top: 150px;
+}
+
+#contentinfo {
+	color: #b1d29d;
+	font-size: 20px;
+	width: 325px;
+	background-color: #939393;
+	float: left;
+	margin-left: -15px;
+	margin-top: -150px;
+	
+}
+
+#resume {
+	color: #b1d29d;
+	font-size: 20px;
+	width: 650px;
+	height: 414px;
+	background-color: #939393;
+	border: 2px solid #444444;
+	float: left;
+	margin-left: 20px;
+	margin-top: -417px;
+	overflow: auto;
+	
+	
+}
+
+#resume-header {
+	color: #eeeeee;
+	float: left;
+	margin-left: 190px;
+	margin-top: -120px;
+	font-size: 25px;
+	width: 400px;
+	height: 105px;
+	text-align: center;
+	background-color: #939393;
+	padding-top: 10px;
+	border: 2px solid #444444;
+}
+
+h5 {
+	float: left;
+	margin-top: 5px;
+	margin-left: 50px;
+	color: #b1d29d;
+}
+
+#education {
+	
+	color: #eeeeee;
+	background-color: #939393;
+	border: 2px solid #444444;
+	font-size: 16px;
+	width: 201px;
+	height: 310px;
+	float: left;
+	margin-left: 695px;
+	margin-top: 20px;
+	padding: 0px 10px 0px 20px;
+	
+}
+
+#education-info {
+	font-size: 14px;
+	color: #b1d29d;
+	float: left;
+	margin-top: -10px;
+}
+
+h3 {
+	float: left;
+	margin-top: 12px;
+}
+
+
+
+section{
+	width:600px;
+	margin-bottom:20px;
+
+}
+
+
+.section-name{
+	color:#eeeeee;
+	text-decoration: underline;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.section-content{
+	
+
+}
+
+.content-item{
+}
+
+.item-heading{
+
+}
+
+.item-name{
+	color: #eeeeee;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.item-date{
+	font-size: 16px;
+	margin-left: 350px;
+	margin-top: -53px;
+}
+
+.item-info{
+	color: #444444;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+
+#responsibilities {
+	margin-left: 30px;
+	color: #444444;
+}
+
+#skills {
+	margin-left: 30px;
+	color: #444444;
+}
+
+
+
+
+#title {
+	color: #dddddd;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+#firstname {
+	width: 177px;
+	background-color:  #939393;
+	margin-left: 580px;
+	margin-top: -190px;
+	height: 90px;
+	float: left;
+}
+
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #eeeeee;
+	font-weight: 700;
+	font-size: 80px;
+	margin-left: 7px;
+	margin-top: -12px;
+	float:left;
+	
+}
+
+#lastname {
+	background-color: #b1d29d;
+	width: 235px;
+	float: left;
+	height: 40px;
+	margin-left: 485px;
+	margin-top: -110px;
+	padding-top: 5px;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left: 10px;
+	margin-top: -9px;
+	float: left;
+	color: #eeeeee;
+}
+
+
+
+nav {
+	float: right;
+	margin-top: -120px;
+	background-color: #b1d29d;
+	font-size: 25px;
+	text-align: right;
+	margin-right: 30px;
+	
+	
+}
+
+#resumenav {
+	float: right;
+	margin-top: 0px;
+	background-color: #b1d29d;
+	font-size: 25px;
+	text-align: right;
+	margin-right: 0px;
+	height: 220px;
+}
+
+#contactnav {
+	float: right;
+	margin-top: 0px;
+	background-color: #b1d29d;
+	font-size: 25px;
+	text-align: right;
+	margin-right: 0px;
+	width: 125px;
+}
+
+#selectedpage {
+	color: #939393;
+	float: left;
+	margin-left: -15px;
+}
+
+#gallery {
+	float:left;
+	background-color: #939393;
+	width: 130px;
+	margin-left: 200px;
+	margin-top: -150px;
+	height: 615px;
+	overflow: auto;
+	border: 2px solid #444444;
+}
+
+
+img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+ 
+}
+
+
+/* above code from http://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css */
+
+
+.normalimg {
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	
+}
+
+.weirdimg {
+	float: left;
+	margin-left: 15px;
+	margin-top: -20px;
+	
+}
+
+.tallimg {
+	float: left;
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+.wideimg {
+	float: left;
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+#galleryselect {
+	float: left;
+	margin-top: -150px;
+	margin-left: 35px;
+	height: 500px;
+	border: 2px solid #939393;
+}
+
+.desc {
+	background-color: #b1d29d;
+	float: left;
+	width: 100px;
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	color: #444444;
+}
+
+
+
+/*.zoom_img img{
+margin:50px;
+height:100px;
+width:100px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+
+.zoom_img_tall img{
+margin:50px;
+height:120px;
+width:100px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+
+.zoom_img_wide img{
+margin:50px;
+height:100px;
+width:120px;
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
+
+.zoom_img img:hover{
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
+}
+
+.zoom_img_tall img:hover{
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
+}
+
+.zoom_img_wide img:hover{
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
+} */
+/* code referenced from http://simplegang.com/zoom-images-on-mouse-hover-using-css3/ */
+
+
+a, li {
+	color: #eeeeee;
+	text-decoration: none;
+	list-style-type: none;
+	margin-right: 5px;
+
+
+}
+
+/* a:visited {
+	color: #eeeeee;
+	text-decoration: none;
+} */
+
+a:hover {
+	color: #939393;
+	
+}
+
+p {
+	
+}
+
+#aboutp {
+	width: 380px;
+	height: 300px;
+	overflow: auto;
+	padding: 0px 10px 0px 20px;
+}
+
+#contact {
+	width: 315px;
+	height: 295px;
+	overflow: auto;
+	padding: 0px 0px 0px 20px;
+	margin-top: -5px;
+}
+
+#info {
+	width: 290px;
+	overflow: auto;
+	padding: 0px 0px 0px 20px;
+	text-align: center;
+	margin-left: -5px;
+}
+
+#email_background {
+	float:left;
+	background-color: #b1d29d;
+	width: 55px;
+	height: 55px;
+	margin-left: -520px;
+	margin-top: 250px;
+	border: 2px solid #939393;
+}
+
+#email {
+	float:left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+
+footer {
+	color: #939393;
+	background-color: #b1d29d;
+	width: 300px;
+	height: 20px;
+	padding: 5px 45px 5px 45px;
+	float: left;
+	margin-left: 400px;
+	margin-top: 20px;
+	
+	}
+	
+#indexfooter {
+	float: left;
+	margin-top: -70px;
+}	
+	
+#aboutfooter {
+	float: left;
+	margin-top: 83px;
+	margin-left: 18px;
+}		
+	
+#contactfooter {
+	float: left;
+	margin-top: -6px;
+	margin-left: 25px;
+}	
+	
+#resumefooter {
+	float: left;
+	margin-top: -5px;
+}
+
+#galleryfooter {
+	float: left;
+	margin-top: -53px;
+	margin-left: -22px;
+}
+	
+#city {
+	float: left;
+	margin-left: 10px;
+}
+
+#copyright {
+	float: left;
+	height: 100px;
+	margin-left: 195px;
+	margin-top: -22px;
+	
+}
+
+	
